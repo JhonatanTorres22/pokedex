@@ -1,0 +1,81 @@
+.variants{
+   
+	grid-area: variants;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+   
+ 
+}
+
+.contorno{
+   
+    display: flex;
+
+    position: absolute;
+    width: 168px;
+    height: 40px;
+    left: 24px;
+    top: 343px;
+    background-color: var(--primary);
+
+}
+
+.circulo-grande{
+	block-size: 3.25rem;
+	inline-size: 3.25rem;
+	background-image: url(../images/pokebola.jpeg);
+	border-radius: 50%;
+	margin: 0;
+	display: flex;
+	font-size: 2rem;
+    background-size: contain;
+	cursor: pointer
+}
+.controno2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 84px;
+    height: 8px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.elipse2{
+
+    width: 30px;
+    height: 8px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position:absolute;
+ 
+    
+    right: 1PX;
+    top: 22px;
+    
+    background: #163355;
+    border-radius: 8px;
+    filter: drop-shadow(1px 1px 0 var(--black));
+    box-sizing: border-box;
+}
+.elipse1{
+    width: 30px;
+    height: 8px;
+    position: absolute;
+    left: 84px;
+    right: 3.33%;
+    top: 22px;
+    bottom: 12.5%;
+
+    background: #FECB2F;
+    border-radius: 8px;
+    filter: drop-shadow(1px 1px 0 #FECB2F);
+}

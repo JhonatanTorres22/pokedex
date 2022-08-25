@@ -1,0 +1,49 @@
+.rectangulo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+
+    position: absolute;
+    width: 22px;
+    height: 14px;
+    left: 314px;
+    top: 310px;
+}
+.linea1{
+    width: 22px;
+    height: 2px;
+    background: #163355;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.linea2{
+    width: 22px;
+    height: 2px;
+    background: #163355;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+.linea3{
+    width: 22px;
+    height: 2px;
+    background: #163355;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+.linea4{
+    width: 22px;
+    height: 2px;
+    background: #163355;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
